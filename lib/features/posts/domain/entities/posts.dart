@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 
 class Post extends Equatable{
 
-  late int id;
+  int? id;
   late String title;
   late String body;
 
